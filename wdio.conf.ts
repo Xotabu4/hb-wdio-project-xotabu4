@@ -15,7 +15,7 @@ export const config: Config = {
     }],
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'info',
-    baseUrl: 'http://ip-5236.sunline.net.ua:38015/',
+    baseUrl: 'http://dyetetica.net/en/',
     waitforTimeout: 10000,
     connectionRetryTimeout: 120000,
     connectionRetryCount: 3,
