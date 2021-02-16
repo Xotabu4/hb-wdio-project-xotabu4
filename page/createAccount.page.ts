@@ -18,6 +18,8 @@ export class CreateAccountPO {
 
         this.registrationForm.$('input[name="password"]').setValue(options.password)
         this.registrationForm.$('input[name="confirmed_password"]').setValue(options.confirmPassword)
+
+        this.registrationForm.$('input[name="terms_agreed"]').click();
     }
     open() {
         browser.url('/create_account')

@@ -16,7 +16,9 @@ describe('User', function () {
             password: email,
             confirmPassword: email
         })
-        APP.CreateAccount.confirmRegistration()
+        // ON THIS STEP USER HAVE TO FILL CAPTCHA MANUALY
+        //APP.CreateAccount.confirmRegistration()
+        
         // browser.pause(5000)
         // browser.waitUntil(() => {
         //     return alert.isDisplayed() && alert.getText().includes(expectedText)
